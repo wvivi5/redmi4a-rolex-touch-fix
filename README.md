@@ -9,6 +9,9 @@
 > appended to the kernel uses `compatible = "edt,edt-ft5336"`, which no kernel driver matches.
 > One byte change (`ft5336` → `ft5306`) makes the `edt_ft5x06` driver bind and the panel come alive.
 
+> 另：**postmarketOS** 上的同类问题（lk2nd 只认 GT911、与 FT5336 共用 GPIO）修法完全不同，
+> 见 [redmi4a-rolex-pmos-touch-fix](https://github.com/wvivi5/redmi4a-rolex-pmos-touch-fix)。
+
 ---
 
 ## 1. 症状
