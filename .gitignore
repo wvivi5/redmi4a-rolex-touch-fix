@@ -1,0 +1,4 @@
+﻿*.orig
+*.bak
+boot/*.img
+
